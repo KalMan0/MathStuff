@@ -53,7 +53,7 @@ double sin_approx(double x, int n)
     for(int i = 0; i < n; i++)
     {
         double num = pow(-1, i) * pow(x, 2 * i + 1);  
-        double denom = non_recursive_factorial(2 * i + 1);              
+        double denom = non_recursive_factorial(2 * i + 1);        // use any of the factorial functions       
         sum = sum + num / denom;                     
     }
     return sum;
