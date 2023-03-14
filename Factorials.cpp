@@ -6,9 +6,10 @@ double ang_to_rad_conv(double);
 double non_recursive_factorial (double); 
 double recursive_factorial (double); 
 
-int main (int argc, char* argv[])
+int main (void)
 {
     // use any of the functions here if you like
+    return 0; 
 }
 
 //Non recursive facotorial uses a for loop for computation 
